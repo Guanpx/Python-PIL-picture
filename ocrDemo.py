@@ -13,7 +13,7 @@ from PIL import Image
 from os import listdir
 
 
-def picPostfix():  # 相册后缀的集合
+def picPostfix():  # 图片后缀的集合
     postFix = set()
     postFix.update(['bmp', 'jpg', 'png', 'tiff', 'gif', 'pcx', 'tga', 'exif',
                     'fpx', 'svg', 'psd', 'cdr', 'pcd', 'dxf', 'ufo', 'eps', 'JPG', 'raw', 'jpeg'])
